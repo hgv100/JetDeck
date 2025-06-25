@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #e9ecef;
+    text-align: left;
+}
+
+body[dir="rtl"] {
+    direction: rtl;
+}
